@@ -44,7 +44,7 @@ const renderRecipe = () => {
     recipeDiv.setAttribute('class', 'recipe-content')
     heading.innerHTML = recipeContent.heading 
     recipeDiv.appendChild(paragraph)
-    appArea.innerHTML = ''
+    appArea.innerHTML = '   '
     appArea.appendChild(heading)
     appArea.appendChild(recipeDiv)
 }
